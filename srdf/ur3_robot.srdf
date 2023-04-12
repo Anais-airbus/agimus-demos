@@ -1,8 +1,9 @@
 <robot name="ur3e">
+
   <gripper name="GRIPPER" clearance="0.03">
-    <position xyz="0 0.15 0.075" xyzw="-0.5 -0.5 0.5 -0.5"/>
+    <position xyz="0 0.145 0.075" xyzw="-0.5 -0.5 0.5 -0.5"/>
     <link name="robotiq_85_gripper"/>
-</gripper>
+  </gripper>
 
   <disable_collisions link1="shoulder_link"
      link2="upper_arm_link" reason=""/>
